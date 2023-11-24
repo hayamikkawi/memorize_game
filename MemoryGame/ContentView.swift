@@ -76,7 +76,9 @@ struct ThemeButtons: View {
             ForEach(themes.indices, id: \.self) { index in
                 ThemeButton(buttonTheme: themes[index],
                             setTheme: setTheme)
-                Spacer()
+                if index < themes.count - 1 {
+                    Spacer()
+                }
             }
         }.padding()
     }

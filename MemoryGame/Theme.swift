@@ -50,9 +50,9 @@ enum Theme: CaseIterable {
         case .halloween:
             return ["🎃", "👻" , "💀", "😇"]
         case .vehicles:
-            return ["🚗", "🚁" , "🚆", "🚲"]
+            return ["🚗", "🚁" , "🚆", "🚲", "⛵️"]
         case .animals:
-            return ["🐎", "🦒" , "🦓", "🦋"]
+            return ["🐎", "🦒" , "🦓", "🦋", "🐘", "🐶"]
         }
     }
     
